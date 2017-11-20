@@ -35,3 +35,13 @@ tupleData = move(10, 20, 5)
 
 print(nx, ny, sep='--')
 print(tupleData)
+
+# 限定关键字参数
+def keyFunLimit(name, age, *, city, job):
+    print('11', name, age, city, job, sep=' -- ')
+keyFunLimit('name', 'age', city='city', job='job')
+
+# 组合类型参数 [变量，带默认值变量，变参(dict),关键字参数]
+def combineArgs(name, age=24, *vars, **kw):
+    pass
+
