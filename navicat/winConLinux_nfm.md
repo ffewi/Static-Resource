@@ -29,7 +29,7 @@ windows 使用Navicat for Mysql连接Linux环境下的Mysql(MariaDB)
 
 1. 去找到解压Mysql的目录文件，找到my.ini文件，查看<code>port=??</code>配置
 
-2. 执行sql命令获取port。例如：
+2. 执行sql命令获取port
 
         show variables like 'port';
 
